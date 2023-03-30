@@ -18,3 +18,5 @@ app.use('/api/reviews', reviewsRouter);
 app.listen(PORT, () => {
     console.log(`Cravey is listening on port ${PORT}`);
 });
+
+nodule.exports = app;
